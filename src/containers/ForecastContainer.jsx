@@ -1,6 +1,11 @@
 import React from "react";
 import ForecastToday from "./ForecastToday";
 import Forecast from "./Forecast";
+import icon5 from "../resources/images/icons/icon-5.svg";
+import icon7 from "../resources/images/icons/icon-7.svg";
+import icon12 from "../resources/images/icons/icon-12.svg";
+import icon13 from "../resources/images/icons/icon-13.svg";
+import icon14 from "../resources/images/icons/icon-14.svg";
 
 class ForecastContainer extends React.Component {
   render() {
@@ -15,7 +20,7 @@ class ForecastContainer extends React.Component {
         </div> {}
         <div className="forecast-content">
           <div className="forecast-icon">
-            <img src="images/icons/icon-5.svg" alt width={48} />
+            <img src={icon5}alt="" width={48} />
           </div>
           <div className="degree">23<sup>o</sup>C</div>
           <small>18<sup>o</sup></small>
@@ -27,7 +32,7 @@ class ForecastContainer extends React.Component {
         </div> {}
         <div className="forecast-content">
           <div className="forecast-icon">
-            <img src="images/icons/icon-7.svg" alt width={48} />
+            <img src={icon7}alt="" width={48} />
           </div>
           <div className="degree">23<sup>o</sup>C</div>
           <small>18<sup>o</sup></small>
@@ -39,7 +44,7 @@ class ForecastContainer extends React.Component {
         </div> {}
         <div className="forecast-content">
           <div className="forecast-icon">
-            <img src="images/icons/icon-12.svg" alt width={48} />
+            <img src={icon12}alt="" width={48} />
           </div>
           <div className="degree">23<sup>o</sup>C</div>
           <small>18<sup>o</sup></small>
@@ -51,7 +56,7 @@ class ForecastContainer extends React.Component {
         </div> {}
         <div className="forecast-content">
           <div className="forecast-icon">
-            <img src="images/icons/icon-13.svg" alt width={48} />
+            <img src={icon13}alt="" width={48} />
           </div>
           <div className="degree">23<sup>o</sup>C</div>
           <small>18<sup>o</sup></small>
@@ -63,7 +68,7 @@ class ForecastContainer extends React.Component {
         </div> {}
         <div className="forecast-content">
           <div className="forecast-icon">
-            <img src="images/icons/icon-14.svg" alt width={48} />
+            <img src={icon14}alt="" width={48} />
           </div>
           <div className="degree">23<sup>o</sup>C</div>
           <small>18<sup>o</sup></small>

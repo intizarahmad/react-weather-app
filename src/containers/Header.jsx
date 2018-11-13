@@ -1,12 +1,12 @@
 import React from "react";
 import Navigation from "./Navigation";
-
+import logo from "../resources/images/logo.png";
 class Header extends React.Component {
   render() {
     return <div className="site-header">
   <div className="container">
     <a href="index.html" className="branding">
-      <img src="images/logo.png" alt className="logo" />
+      <img src={logo} alt="" className="logo" />
       <div className="logo-type">
         <h1 className="site-title">Company name</h1>
         <small className="site-description">tagline goes here</small>
